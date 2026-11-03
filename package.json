@@ -1,0 +1,53 @@
+{
+  "name": "dsh-claude-brand-refinement",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Draws the dsh-claude-style brand as a serif \"Fuck\" prefix plus the original Claude vector wordmark, and colors only the sidebar flower orange.",
+  "icon": "icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*": "./locale/*",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "web-ui",
+    "theme",
+    "dsh-claude-style",
+    "wordmark"
+  ],
+  "license": "MIT",
+  "author": "DarkRingSystem",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkRingSystem/dsh-claude-brand-refinement.git"
+  },
+  "homepage": "https://github.com/DarkRingSystem/dsh-claude-brand-refinement#readme",
+  "bugs": {
+    "url": "https://github.com/DarkRingSystem/dsh-claude-brand-refinement/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

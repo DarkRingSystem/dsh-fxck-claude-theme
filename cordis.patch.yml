@@ -1,0 +1,8 @@
+# Inserts this plugin behind dsh-claude-style. `target` is the loader entry id of
+# the theme whose brand the overlay repaints; change it only if the theme is
+# mounted under a different id.
+- insert:
+    - id: dsh-claude-brand-refinement
+      name: dsh-claude-brand-refinement
+      config:
+        target: ui-skin-claude-style
