@@ -2,7 +2,7 @@
 # the theme whose brand the overlay repaints; change it only if the theme is
 # mounted under a different id.
 - insert:
-    - id: dsh-claude-brand-refinement
-      name: dsh-claude-brand-refinement
+    - id: dsh-fxck-claude-theme
+      name: dsh-fxck-claude-theme
       config:
         target: ui-skin-claude-style

@@ -3,7 +3,7 @@
  * at its native size and sets a serif prefix in front of it.
  */
 window.__ModuleLoader__.load({
-  id: 'dsh-claude-brand-refinement',
+  id: 'dsh-fxck-claude-theme',
   factory(require) {
     const React = require('react');
     const css = `
@@ -46,13 +46,13 @@ body[data-dsh-claude-style][data-dsh-claude-brand="claude"] :is([data-dsh-claude
 }
 `;
     function BrandStyles() {
-      return React.createElement('style', { 'data-dsh-claude-brand-refinement': '' }, css);
+      return React.createElement('style', { 'data-dsh-fxck-claude-theme': '' }, css);
     }
     return {
       inject: ['slots'],
       apply(ctx) {
         ctx.slots.inject('shell.overlay', () => ctx.slots.register({
-          name: 'shell.overlay', id: 'dsh-claude-brand-refinement', order: 100,
+          name: 'shell.overlay', id: 'dsh-fxck-claude-theme', order: 100,
         }, BrandStyles));
       },
     };

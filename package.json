@@ -1,5 +1,5 @@
 {
-  "name": "dsh-claude-brand-refinement",
+  "name": "dsh-fxck-claude-theme",
   "version": "1.0.0",
   "type": "module",
   "description": "Draws the dsh-claude-style brand as a serif \"Fuck\" prefix plus the original Claude vector wordmark, and colors only the sidebar flower orange.",
@@ -34,11 +34,11 @@
   "author": "DarkRingSystem",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DarkRingSystem/dsh-claude-brand-refinement.git"
+    "url": "git+https://github.com/DarkRingSystem/dsh-fxck-claude-theme.git"
   },
-  "homepage": "https://github.com/DarkRingSystem/dsh-claude-brand-refinement#readme",
+  "homepage": "https://github.com/DarkRingSystem/dsh-fxck-claude-theme#readme",
   "bugs": {
-    "url": "https://github.com/DarkRingSystem/dsh-claude-brand-refinement/issues"
+    "url": "https://github.com/DarkRingSystem/dsh-fxck-claude-theme/issues"
   },
   "dsh": {
     "bundle": {

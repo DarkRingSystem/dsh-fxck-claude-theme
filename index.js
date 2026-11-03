@@ -2,7 +2,7 @@
  * Restores the theme's original brand ink so the Client overlay can scope the
  * orange to the sidebar flower alone.
  */
-export const name = 'dsh-claude-brand-refinement';
+export const name = 'dsh-fxck-claude-theme';
 export const inject = ['configEditor'];
 
 /**

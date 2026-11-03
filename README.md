@@ -1,4 +1,4 @@
-# dsh-claude-brand-refinement
+# dsh-fxck-claude-theme
 
 [![license](https://img.shields.io/badge/license-MIT-2EA44F.svg)](LICENSE)
 
@@ -29,15 +29,15 @@ An overlay plugin for the [dsh-claude-style](https://github.com/Nwflower/dsh-cla
 在 DeepSeek Harness 的插件管理器（dshmarket）里安装：
 
 ```sh
-plugin_manager install_bundle dsh-claude-brand-refinement
+plugin_manager install_bundle dsh-fxck-claude-theme
 ```
 
 或者手动把它加进 profile 的 `package.json`：
 
 ```json
 {
-  "dependencies": { "dsh-claude-brand-refinement": "1.0.0" },
-  "dsh": { "profile": { "bundles": ["dsh-claude-brand-refinement"] } }
+  "dependencies": { "dsh-fxck-claude-theme": "1.0.0" },
+  "dsh": { "profile": { "bundles": ["dsh-fxck-claude-theme"] } }
 }
 ```
 
