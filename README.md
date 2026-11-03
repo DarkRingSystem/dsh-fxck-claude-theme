@@ -1,8 +1,7 @@
 # dsh-fxck-claude-theme
 
 [![license](https://img.shields.io/badge/license-MIT-2EA44F.svg)](LICENSE)
-
-An overlay plugin for the [dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) theme in DeepSeek Harness. It keeps Claude's original vector lettering at its native size, puts a serif **Fuck** in front of it, and leaves orange on the sidebar flower alone.
+[![简体中文](https://img.shields.io/badge/lang-简体中文-d97757.svg)](README.md) [![日本語](https://img.shields.io/badge/lang-日本語-4a5568.svg)](README.ja.md)
 
 > 一个很小的装饰插件：在 `dsh-claude-style` 主题的字标前加一个衬线「Fuck」，字标本身保持原版矢量、原版尺寸和原版文字色，橘色只留在侧栏那朵菊花上。
 
